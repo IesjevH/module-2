@@ -14,7 +14,7 @@ body {
     color: aliceblue;
     border: solid white 2px;
     border-radius: 10px;
-    width: 900px;
+    width: 1212px;
     padding: 5px;
     text-align: center;
 }
@@ -85,7 +85,7 @@ body {
     color: white;
   }
   
-#footer {
-    background-color: rgb(189, 221, 221);
-    
+footer {
+    background-color: rgb(57, 57, 57);
+    color: rgb(0, 0, 0);
 }
