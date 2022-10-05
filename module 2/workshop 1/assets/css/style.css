@@ -3,12 +3,14 @@ body {
     text-align: left;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #header {
     position: absolute;
     top: 10px;
-    left: 150px;
+    left: 210px;
     color: aliceblue;
     border: solid white 2px;
     border-radius: 10px;
@@ -19,34 +21,39 @@ body {
 
 #p {
     color: aliceblue;
+    font-size: 20px;
     text-align: left;
     border: #fff solid 3px;
-    width: 300px;
-    padding: 10px;
+    width: 530px;
+    padding: 6px;
     border-radius: 10%;
     position: relative;
-    top: 225px;
+    top: 110px;
+    left: 390px;
 }
 
 #p2 {
     text-align: left;
+    font-size: 20px;
     color: aliceblue;
     border: #fff solid 3px;
-    width: 300px;
+    width: 340px;
     position: relative;
-    left: 500px;
-    padding: 10px;
+    left: 950px;
+    top: -125px;
+    padding: 15px;
     border-radius: 10%;
 }
 
 #elonsmoking {
-    position: relative;
-    left: 50px;
+    position: absolute;
+    top: 175px;
+    border-radius: 20%;
 }
 
 #pfp {
     position: absolute;
-    left: 30px;
+    left: 110px;
     top: 10px;
     border-radius: 50%;
     border: solid white 3px;
@@ -68,3 +75,17 @@ body {
     font-size: 30px;
   }
   
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.topnav a.active {
+    background-color: red;
+    color: white;
+  }
+  
+#footer {
+    background-color: rgb(189, 221, 221);
+    
+}
