@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+p {
+    color: aliceblue;
+    text-align: left;
+    border: #fff solid 3px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10%;
+    position: relative;
+    top: 200px;
+}
+
+#elonsmoking {
+    position: relative;
+    left: 50px;
+}
+
+#pfp {
+    position: absolute;
+    left: 40px;
+    border-radius: 50%;
+    border: solid white 3px;
+}
